@@ -1,0 +1,235 @@
+@mixin line-height
+  line-height: 1.5
+
+ul.header-nav
+  text-align: right
+
+.impaired-wrapper
+  text-align: right
+
+.impaired-btn
+  position: relative
+  padding: 5px 0 5px 40px
+  font-size: 14px
+  border-radius: 3px
+  &:before
+    content: ''
+    position: absolute
+    top: 6px
+    left: 5px
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAMAAAB/VplGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAF6UExURUdwTPz+/AAAAPz+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAPz+/Pz+/Pz+/Pz+/AAAAPz+/Pz+/Pz+/AAAAAAAAPz+/AAAAPz+/AAAAAAAAPz+/Pz+/Pz+/AAAAPz+/Pz+/AAAAAAAAPz+/AAAAPz+/AAAAAAAAPz+/Pz+/AAAAPz+/Pz+/Pz+/Pz+/AAAAPz+/Pz+/Pz+/Pz+/AAAAAAAAPz+/AAAAAAAAPz+/Pz+/Pz+/AAAAAAAAAAAAPz+/Pz+/AAAAPz+/AAAAAAAAAAAAAAAAAAAAAAAAPz+/AAAAPz+/Pz+/AAAAAAAAAAAAPz+/Pz+/Pz+/AAAAPz+/AAAAAAAAPz+/AAAAPz+/AAAAPz+/AAAAAAAAPz+/AAAAAAAAPz+/Pz+/Pz+/Pz+/AAAAPz+/AAAAAAAAPz+/Pz+/Pz+/AAAAPz+/AAAAPz+/AAAAPz+/Pz+/AAAAAAAAPz+/AAAAPz+/AAAAPz+/Pz+/AAAAPz+/AAAAPz+/GqSyecAAAB8dFJOUwD8Wqu00f1jzvrrs9DOdqta+usrQN3CwXYFBahQwMfmR+Y2NgMDGhoq9mNGYPkNQMsNJZ5pXYNNg09NT6hfv8N5ecYBMrDbJZ2Li2hcUcgWO/WZmaKTku7uQzRQ12TdytjToC8gk5E6o2lIFVl+fpaWQxfe6iYhdbC1vSCB9TRJAAACP0lEQVQ4y2WRV1daURSEP5pwqYqiUgQRBRuI2BWxRk2x18TYTUxML6bu/d/zcC9hofN4vrXXzJmBqkqNl5VIOJwKOIJd3NfQmm6fq6mItg3WwVxctb+3zaTbJ1sB9Q/U6JTqwjC/VfMXgZRqeIovR/qkSt9qsQQ+1eIVbH60qXbBpDq6AQjqLnCr2tbdlQMaVStAQudiQKMeAKyp7W/C5h8GfJrvBRIah67tOAB+DXCgmgP6VccAGm1BfBoDiEW0wo/dQYBp1acAVJSt/BsAAuqPWVGr1++bFmBMX1neVxa2vKc0bib/DAyozg1DLfm0JmPWv5MlcKgWb2Fzskn1BUyqo2qWUA0O80u1yZ9MqYanGQrXWoOcQ239vT6z86OToaL6b+sXu1TbhYnzEZ0bfDBpadCRPE99jwR8Cw/3hlX7Xsep15v2hNozD2DLiPStiKlTaXXXwWxZxN3catI+941HXJ01OiMyX8ApYrg8aRHvDM8P5XGVjsrZHThFzpbh3QdDJAPjEuoBoF12gE6R1p6bLGAX6QDWpTUK2OU1wIgY18eGqwA4xWgGjqUMmb4ywJJHPOyLZAG3yDMAe0M7TokCRFfkD9c7swATIqMAdAg3xp517YpaUf9fG/MwK/umd0OzhS3vGSmbyT+ZyRcLUEs+IRtR69+LqxAS8XTC13FDZBnGJVQ1Wxf5WeCRiOHaSIt4J2jx1lqDbEga3M1Os/NDd0t95+Zihsua5Nv9xQDuZkOLL9PeFY9zPrNUffwHn5qd2Cik4vwAAAAASUVORK5CYII=')
+    background-position: 0 17px
+    width: 30px
+    height: 17px
+
+body.impaired
+  //common
+  font-size: 17px
+  @include line-height
+  color: black
+
+  .impaired-btn
+    font-size: 16px
+    color: white
+    background-color: black
+    padding-right: 5px
+    &:before
+      background-position: 0 0
+
+  div
+    background-image: none
+
+  h1, h2, h3, h4, h5, h6, p
+    color: black
+    font-size: 21px
+    @include line-height
+
+  strong
+    color: black
+    span
+      color: black !important
+
+  .w-button
+    background-color: black
+    color: white
+    font-size: 15px
+
+    &:hover
+      background-color: black
+
+  .w-section
+    background-color: white
+
+  .w-slider
+    display: none
+
+  .w-tab-link
+    background-color: white
+
+    &:hover
+      background-color: black
+      color: white
+
+    &.w--current
+      background-color: black
+
+  .pagination
+    font-size: 19px
+    @include line-height
+
+    a, span
+      color: black
+
+  textarea.w-input,
+  textarea.w-select
+    font-size: 21px
+
+  //custom for gk-kd
+  .first-main,
+  .first-news
+    padding: 50px 0
+
+  .first-news
+    background-color: white
+
+  .section-3
+    background-color: white
+
+  .divider-2,
+  .icon-2,
+  .news-img-wrap,
+  .head-photo img,
+  .content-wrap img,
+  .city-photo img,
+  .news-img-mini img,
+  .text img,
+  .news-img
+    display: none
+
+  .icondiv-2
+    background-image: none
+    width: 125px
+
+  .icontext-1,
+  .icontext-2,
+  .linkcolor
+    color: black
+
+  .icontext-1
+    font-size: 45px
+    @include line-height
+
+  .icontext-2
+    font-size: 11px
+    @include line-height
+
+  .linkcolor
+    border-bottom-color: black
+
+  .upper-header-text
+    font-size: 16px
+    @include line-height
+    &.phone
+      font-size: 19px
+
+  ul
+    a
+      font-size: 16px
+      @include line-height
+      color: black
+
+      &:hover
+        color: black
+    li.current_page_item
+      a
+        color: black
+
+  .heading1
+    font-size: 34px
+    @include line-height
+
+  .heading2
+    font-size: 31px
+    &.left.margin
+      margin-bottom: 10px
+    @include line-height
+
+  .heading3
+    font-size: 19px
+    @include line-height
+
+  .heading4
+    font-size: 15px
+    @include line-height
+
+  .paragraph
+    &.light
+      font-size: 19px
+
+    &.big
+      font-size: 17px
+
+  .miniheading
+    font-size: 21px
+    @include line-height
+
+  .news-text-1,
+  .news-text-content
+    font-size: 15px
+    @include line-height
+
+  .news-text-2
+    font-size: 13px
+    @include line-height
+
+  .formshit.three
+    font-size: 21px
+    @include line-height
+
+  .text-1
+    font-size: 19px
+    @include line-height
+
+    &.smaller
+      font-size: 15px
+
+  .footertext
+    @include line-height
+    &.two
+      font-size: 14px
+
+  .about-nav,
+  .cities
+    a
+      background-color: white
+      color: black
+      border: 2px solid black
+
+      &:hover
+        background-color: black
+        color: white
+
+  #map,
+  #contacts-map
+    display: none
+
+  .success,
+  .vakancie-item,
+  .vakancie-item__description
+    background-color: white
+
+  //.logolink img,
+  //.footer-img,
+  //.dlogo
+  //  filter: grayscale(100%)
+
+  .dlogo
+    width: 100%
+
+  .footer-quality-text
+    font-size: 15px
+
+  .footer-quality-btn
+    color: black
+    border-color: black
+    font-size: 14px

@@ -1,0 +1,178 @@
+ul.header-nav {
+  text-align: right; }
+
+.impaired-wrapper {
+  text-align: right; }
+
+.impaired-btn {
+  position: relative;
+  padding: 5px 0 5px 40px;
+  font-size: 14px;
+  border-radius: 3px; }
+  .impaired-btn:before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAMAAAB/VplGAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAF6UExURUdwTPz+/AAAAPz+/AAAAAAAAAAAAAAAAAAAAAAAAAAAAPz+/Pz+/Pz+/Pz+/AAAAPz+/Pz+/Pz+/AAAAAAAAPz+/AAAAPz+/AAAAAAAAPz+/Pz+/Pz+/AAAAPz+/Pz+/AAAAAAAAPz+/AAAAPz+/AAAAAAAAPz+/Pz+/AAAAPz+/Pz+/Pz+/Pz+/AAAAPz+/Pz+/Pz+/Pz+/AAAAAAAAPz+/AAAAAAAAPz+/Pz+/Pz+/AAAAAAAAAAAAPz+/Pz+/AAAAPz+/AAAAAAAAAAAAAAAAAAAAAAAAPz+/AAAAPz+/Pz+/AAAAAAAAAAAAPz+/Pz+/Pz+/AAAAPz+/AAAAAAAAPz+/AAAAPz+/AAAAPz+/AAAAAAAAPz+/AAAAAAAAPz+/Pz+/Pz+/Pz+/AAAAPz+/AAAAAAAAPz+/Pz+/Pz+/AAAAPz+/AAAAPz+/AAAAPz+/Pz+/AAAAAAAAPz+/AAAAPz+/AAAAPz+/Pz+/AAAAPz+/AAAAPz+/GqSyecAAAB8dFJOUwD8Wqu00f1jzvrrs9DOdqta+usrQN3CwXYFBahQwMfmR+Y2NgMDGhoq9mNGYPkNQMsNJZ5pXYNNg09NT6hfv8N5ecYBMrDbJZ2Li2hcUcgWO/WZmaKTku7uQzRQ12TdytjToC8gk5E6o2lIFVl+fpaWQxfe6iYhdbC1vSCB9TRJAAACP0lEQVQ4y2WRV1daURSEP5pwqYqiUgQRBRuI2BWxRk2x18TYTUxML6bu/d/zcC9hofN4vrXXzJmBqkqNl5VIOJwKOIJd3NfQmm6fq6mItg3WwVxctb+3zaTbJ1sB9Q/U6JTqwjC/VfMXgZRqeIovR/qkSt9qsQQ+1eIVbH60qXbBpDq6AQjqLnCr2tbdlQMaVStAQudiQKMeAKyp7W/C5h8GfJrvBRIah67tOAB+DXCgmgP6VccAGm1BfBoDiEW0wo/dQYBp1acAVJSt/BsAAuqPWVGr1++bFmBMX1neVxa2vKc0bib/DAyozg1DLfm0JmPWv5MlcKgWb2Fzskn1BUyqo2qWUA0O80u1yZ9MqYanGQrXWoOcQ239vT6z86OToaL6b+sXu1TbhYnzEZ0bfDBpadCRPE99jwR8Cw/3hlX7Xsep15v2hNozD2DLiPStiKlTaXXXwWxZxN3catI+941HXJ01OiMyX8ApYrg8aRHvDM8P5XGVjsrZHThFzpbh3QdDJAPjEuoBoF12gE6R1p6bLGAX6QDWpTUK2OU1wIgY18eGqwA4xWgGjqUMmb4ywJJHPOyLZAG3yDMAe0M7TokCRFfkD9c7swATIqMAdAg3xp517YpaUf9fG/MwK/umd0OzhS3vGSmbyT+ZyRcLUEs+IRtR69+LqxAS8XTC13FDZBnGJVQ1Wxf5WeCRiOHaSIt4J2jx1lqDbEga3M1Os/NDd0t95+Zihsua5Nv9xQDuZkOLL9PeFY9zPrNUffwHn5qd2Cik4vwAAAAASUVORK5CYII=");
+    background-position: 0 17px;
+    width: 30px;
+    height: 17px; }
+
+body.impaired {
+  font-size: 17px;
+  line-height: 1.5;
+  color: black; }
+  body.impaired .impaired-btn {
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    padding-right: 5px; }
+    body.impaired .impaired-btn:before {
+      background-position: 0 0; }
+  body.impaired div {
+    background-image: none; }
+  body.impaired h1, body.impaired h2, body.impaired h3, body.impaired h4, body.impaired h5, body.impaired h6, body.impaired p {
+    color: black;
+    font-size: 21px;
+    line-height: 1.5; }
+  body.impaired strong {
+    color: black; }
+    body.impaired strong span {
+      color: black !important; }
+  body.impaired .w-button {
+    background-color: black;
+    color: white;
+    font-size: 15px; }
+    body.impaired .w-button:hover {
+      background-color: black; }
+  body.impaired .w-section {
+    background-color: white; }
+  body.impaired .w-slider {
+    display: none; }
+  body.impaired .w-tab-link {
+    background-color: white; }
+    body.impaired .w-tab-link:hover {
+      background-color: black;
+      color: white; }
+    body.impaired .w-tab-link.w--current {
+      background-color: black; }
+  body.impaired .pagination {
+    font-size: 19px;
+    line-height: 1.5; }
+    body.impaired .pagination a, body.impaired .pagination span {
+      color: black; }
+  body.impaired textarea.w-input,
+  body.impaired textarea.w-select {
+    font-size: 21px; }
+  body.impaired .first-main,
+  body.impaired .first-news {
+    padding: 50px 0; }
+  body.impaired .first-news {
+    background-color: white; }
+  body.impaired .section-3 {
+    background-color: white; }
+  body.impaired .divider-2,
+  body.impaired .icon-2,
+  body.impaired .news-img-wrap,
+  body.impaired .head-photo img,
+  body.impaired .content-wrap img,
+  body.impaired .city-photo img,
+  body.impaired .news-img-mini img,
+  body.impaired .text img,
+  body.impaired .news-img {
+    display: none; }
+  body.impaired .icondiv-2 {
+    background-image: none;
+    width: 125px; }
+  body.impaired .icontext-1,
+  body.impaired .icontext-2,
+  body.impaired .linkcolor {
+    color: black; }
+  body.impaired .icontext-1 {
+    font-size: 45px;
+    line-height: 1.5; }
+  body.impaired .icontext-2 {
+    font-size: 11px;
+    line-height: 1.5; }
+  body.impaired .linkcolor {
+    border-bottom-color: black; }
+  body.impaired .upper-header-text {
+    font-size: 16px;
+    line-height: 1.5; }
+    body.impaired .upper-header-text.phone {
+      font-size: 19px; }
+  body.impaired ul a {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black; }
+    body.impaired ul a:hover {
+      color: black; }
+  body.impaired ul li.current_page_item a {
+    color: black; }
+  body.impaired .heading1 {
+    font-size: 34px;
+    line-height: 1.5; }
+  body.impaired .heading2 {
+    font-size: 31px;
+    line-height: 1.5; }
+    body.impaired .heading2.left.margin {
+      margin-bottom: 10px; }
+  body.impaired .heading3 {
+    font-size: 19px;
+    line-height: 1.5; }
+  body.impaired .heading4 {
+    font-size: 15px;
+    line-height: 1.5; }
+  body.impaired .paragraph.light {
+    font-size: 19px; }
+  body.impaired .paragraph.big {
+    font-size: 17px; }
+  body.impaired .miniheading {
+    font-size: 21px;
+    line-height: 1.5; }
+  body.impaired .news-text-1,
+  body.impaired .news-text-content {
+    font-size: 15px;
+    line-height: 1.5; }
+  body.impaired .news-text-2 {
+    font-size: 13px;
+    line-height: 1.5; }
+  body.impaired .formshit.three {
+    font-size: 21px;
+    line-height: 1.5; }
+  body.impaired .text-1 {
+    font-size: 19px;
+    line-height: 1.5; }
+    body.impaired .text-1.smaller {
+      font-size: 15px; }
+  body.impaired .footertext {
+    line-height: 1.5; }
+    body.impaired .footertext.two {
+      font-size: 14px; }
+  body.impaired .about-nav a,
+  body.impaired .cities a {
+    background-color: white;
+    color: black;
+    border: 2px solid black; }
+    body.impaired .about-nav a:hover,
+    body.impaired .cities a:hover {
+      background-color: black;
+      color: white; }
+  body.impaired #map,
+  body.impaired #contacts-map {
+    display: none; }
+  body.impaired .success,
+  body.impaired .vakancie-item,
+  body.impaired .vakancie-item__description {
+    background-color: white; }
+  body.impaired .dlogo {
+    width: 100%; }
+  body.impaired .footer-quality-text {
+    font-size: 15px; }
+  body.impaired .footer-quality-btn {
+    color: black;
+    border-color: black;
+    font-size: 14px; }
+
+/*# sourceMappingURL=visually_impaired.css.map */
